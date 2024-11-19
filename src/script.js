@@ -24,7 +24,7 @@ jQuery(document).ready(function () {
             arrows: false,
             dots: false,
             focusOnSelect: true,
-            variableWidth: true,
+            variableWidth: false,
         });
         function onLoadTest() {
             jQuery(".banner-section-loop").each(function (i) {
